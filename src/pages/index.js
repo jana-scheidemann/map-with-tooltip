@@ -10,8 +10,6 @@ import { Tooltip } from "react-tooltip";
 
 export default function Home() {
   const [content, setContent] = useState("");
-  // const geoUrl =
-  //   "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
   return (
     <>
@@ -24,6 +22,10 @@ export default function Home() {
       <main>
         <div className="app">
           <h1>Mappy Map</h1>
+          <p>zoom in || move around || hover</p>
+
+          <p>more interactivity is coming soon...</p>
+
           <Tooltip id="my-tooltip" />
           <div className="map">
             <ComposableMap data-tip="">
