@@ -2,7 +2,11 @@
 
 I wanted to play around with a 🌎 map 🌏 for a while and finally figured out how to use the react-simple-map with tooltip. Made me very happy 😎
 
-Their [current example](https://www.react-simple-maps.io/examples/map-chart-with-tooltip/) isn't working properly, but the [video tutorial](https://youtu.be/z6PzPTxfgZM?si=gXN7CPuLL5x2WENk) of "Code with Irtiza" in comination with the docs of [React Tooltip](https://react-tooltip.com) of helped a lot.
+The [current example](https://www.react-simple-maps.io/examples/map-chart-with-tooltip/) of a map with tooltip from react-simple-maps isn't working properly, but the [video tutorial](https://youtu.be/z6PzPTxfgZM?si=gXN7CPuLL5x2WENk) of "Code with Irtiza" in comination with the docs of [React Tooltip](https://react-tooltip.com) helped a lot.
+
+## Next
+
+I want to convert this map into a digital version of a scratch map (a map where a filled background of a country symbolizes this has been visited). So far I couldn't find a better geoJSON and also struggle to implement the useState for the "isVisited" state. I am on it 💪🏻
 
 ## Tech Stack
 
